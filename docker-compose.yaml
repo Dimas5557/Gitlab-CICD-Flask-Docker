@@ -1,0 +1,8 @@
+version: '3'
+services:
+ web:
+  image: registry.gitlab.com/dimas5557/test/test:dev
+  ports:
+   - 80:80
+  volumes:
+   - .:/code
